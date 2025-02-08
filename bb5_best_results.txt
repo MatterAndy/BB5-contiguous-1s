@@ -1,0 +1,4 @@
+steps: 47176870
+score: 4097
+space: 12289
+contiguous_1s: 164
