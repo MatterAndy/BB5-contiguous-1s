@@ -8,7 +8,7 @@ Please download the ```bb5_verified_enumeration.csv.zst``` file [here](https://d
 
 ## Programs
 
-```isolate_halting_machines.cpp``` reads the ```bb5_verified_enumeration.csv``` file (created by the [Busy Beaver Challenge Community](https://bbchallenge.org)), which contains all 5-state Turing machines, then generates the ```bb5_halting_machines.csv``` file containing only the halting machines.
+```isolate_halting_machines.cpp``` reads the ```bb5_verified_enumeration.csv``` file (created by the [Busy Beaver Challenge Community](https://bbchallenge.org)), which contains all 5-state Turing machines, then generates a ```bb5_halting_machines.csv``` file containing only the halting machines.
 
 ```main.cpp``` runs all of the halting machines and records a few metrics for each one in a ```bb5_machine_results.csv``` file:
 - ```steps```: The number of steps the machine will run for before halting
