@@ -22,4 +22,6 @@ Please run the programs in this order, as they will not work otherwise.
 
 ## Results
 
-The largest value found for ```contiguous_1s``` is 164, achieved by two machines: ```0RB1LD_1LC1RB_1LD1RE_1LA1LE_---0RC``` and ```1RB1LA_1RC1LE_1RD1RE_0LA1RC_---0LB```.
+The largest value I found for ```contiguous_1s``` is 164, achieved by two machines: ```0RB1LD_1LC1RB_1LD1RE_1LA1LE_---0RC``` and ```1RB1LA_1RC1LE_1RD1RE_0LA1RC_---0LB```.
+
+Through the Busy Beaver Challenge Community's Discord server, Shawn Ligocki commented on the fact that this result could be improved by setting an explicit halting instruction that wrote an additional 1 on the tape, like for the following machines: ```0RB1LD_1LC1RB_1LD1RE_1LA1LE_1LZ0RC``` and ```1RB1LA_1RC1LE_1RD1RE_0LA1RC_1RZ0LB```. This means that the length of the longest string of contiguous 1s a halting 5-state Turing machine can leave on a tape after halting is 165.
